@@ -1,47 +1,42 @@
-# Quantitative Finance with Machine Learning
+# Quantum Machine Learning
 
 
 ##  Overview
-This repository demonstrates the application of advanced Machine Learning (ML) techniques in the field of Quantitative Finance. It showcases a variety of ML-driven approaches to key financial tasks, aiming to solve complex problems while improving decision-making processes in areas like portfolio optimisation and financial forecasting.
+This repository showcases the application of Quantum Machine Learning (QML) to traditional machine learning tasks, such as classification and regression. The purpose is twofold:
 
 The goal of this repository is twofold:
-- To explore state-of-the-art ML algorithms in Quantitative Finance.
-- To serve as a demonstration of my expertise for future career opportunities in the finance and data science sectors.
+- To explore and advance understanding in state-of-the-art Quantum Machine Learning techniques.
+- To demonstrate my expertise in Quantum Machine Learning as a foundation for future career opportunities.
 
 ## Current Work
 
 
-For now, this repository currently includes two main areas of focus:
+This repository currently includes the following areas of focus:
 
-- Portfolio Optimisation:
-    - Implementations include classic optimisation algorithms as well as Monte Carlo simulations to optimise portfolio returns.
-- Financial Forecasting:
-    - This section focuses on time series forecasting for stock prices, using multivariate, feature engineering and with easy adaptability to predict other financial instruments such as indices, commodities, ETFs, etc.
-    - Models used include cutting-edge approaches like Long Short-Term Memory (LSTM) networks, Transformer models, and state-of-the-art transfer learning architectures, such as Chronos, a breakthrough model introduced by Amazon in 2024, leveraging Large Language Models (LLMs) for time series predictions.
+- Classification:
+    - Implementations include multiclass classification models using both fully quantum classifiers and hybrid quantum-classical models.
+- Regression:
+    - We explore quantum algorithms for regression using classical datasets, with implementations of both fully quantum and hybrid quantum-classical regressors.
 
 
 ## Future Updates 
 
-Several planned improvements and additions to this repository include:
+Planned additions and improvements include:
 
-- Advanced Optimisation Techniques:
-    - Ongoing work on incorporating Reinforcement Learning and Bayesian Optimisation to further enhance portfolio optimisation methods.
-
-- Expanding ML Use Cases:
-    - Introducing new machine learning tasks that address other crucial problems in Quantitative Finance.
-
-- Quantum Computing Applications:
-    - Integrating Quantum Computing methods to tackle the presented tasks with higher efficiency. This is an area where I have substantial interest and experience. (For more, I encourage you to explore my other repositories on Quantum Computing.)
+- Development of QML algorithms focused on Natural Language Processing (NLP).
+- Exploration and implementation of Quantum Reinforcement Learning models.
+- Performance Evaluation: Comparative analysis of quantum versus classical algorithms to assess potential advantages in terms of accuracy, computational complexity, and scalability.
 
 
 ## Requirements
 
-
-- gpytorch  >=1.12
-- botorch >= 0.11
-- chronos
+- qiskit    >=1.2 
+- qiskit-algorithms    >=0.3
+- qiskit-nature    >=0.7
+- qiskit-machine-learning    >=0.7
+- qiskit-optimization    >=0.6
+- scikit-learn >=1.5
+- torch     >=2.4
 - matplotlib    >=3.9
 - seaborn   >=3.9
-- mlflow    >=2.16 
-- optuna 
-- dash
+- pandas >=2.2
