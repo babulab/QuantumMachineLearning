@@ -2,7 +2,7 @@
 
 
 ##  Overview
-This repository showcases the application of Quantum Machine Learning (QML) to traditional machine learning tasks, such as classification regression, and optimisation. The purpose is twofold:
+This repository showcases the application of Quantum Machine Learning (QML) to traditional machine learning tasks, such as classification, regression, and optimisation. The purpose is twofold:
 
 The goal of this repository is twofold:
 - To explore and advance understanding in state-of-the-art Quantum Machine Learning techniques.
@@ -21,11 +21,12 @@ This repository currently includes the following areas of focus:
 - Regression: We investigate quantum algorithms for regression tasks using classical datasets, featuring implementations of:
     - Hybrid Models: Deep neural networks paired with quantum neural networks.
     - Fully Quantum Models: Quantum neural networks tailored for regression.
-    -  Quantum Support Vector Machines: Regression models based on quantum support vector machine approaches.
+    - Quantum Support Vector Machines: Regression models based on quantum support vector machine approaches.
+    - Quantum Gaussian Process: Regression model based on the use of Quantum Fidelity Kernel .
 
 
 - Optimisation Techniques:
-    - Quantum Bayesian Optimization, specifically employing Quantum Gaussian Processes to enhance optimization strategies.
+    - Under development
 
 
 
@@ -44,6 +45,7 @@ Due to the rapid evolution of the Qiskit framework, some parts of this repositor
 ## Requirements
 
 - qiskit    >=1.3
+- qiskit-aer >=0.16
 - qiskit-algorithms    >=0.3
 - qiskit-nature    >=0.7
 - qiskit-machine-learning    >=0.8
